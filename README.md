@@ -1,3 +1,8 @@
+# Tensorflow Car Price Analysis
+This is an example of Atıl Samancıoğlu from BTK Academy Python and Tensorflow course.
+## Requirements
+Pandas, Sklearn, Tensorflow
+
 # Dataset
 Used Mercedes cars with below properties.
 
