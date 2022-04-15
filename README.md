@@ -4,7 +4,7 @@ This is an example of Atıl Samancıoğlu from BTK Academy Python and Tensorflow
 Pandas, Sklearn, Tensorflow
 
 # Dataset
-Used Mercedes cars with below properties.
+Used cars of a spesific brand with below properties.
 
 |Describe| Year          | price         | mileage       | tax           | mpg           | engineSize  |
 | ------ |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:| -----------:|

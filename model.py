@@ -1,11 +1,8 @@
-from statistics import mode
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt 
-import seaborn as sbn
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
-from sklearn.metrics import mean_squared_error,mean_absolute_error
+from sklearn.metrics import mean_absolute_error
 from keras.layers import Dense
 from keras.models import Sequential
 from dataset_cleaning import cleanedDf as df
@@ -20,7 +17,6 @@ x_train = scaler.fit_transform(x_train)
 x_test = scaler.fit_transform(x_test)
 
 
-
 model = Sequential()
 
 model.add(Dense(12,activation="relu")) #12 Neurons, Rectified Linear Units
@@ -28,7 +24,6 @@ model.add(Dense(12,activation="relu"))
 model.add(Dense(12,activation="relu"))
 model.add(Dense(12,activation="relu"))
 model.add(Dense(12,activation="relu"))
-
 
 model.add(Dense(1))
 
